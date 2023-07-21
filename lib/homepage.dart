@@ -15,11 +15,6 @@ class _HomepageState extends State<Homepage> {
       appBar: AppBar(
         title: Text('Notes'),
       ),
-      body: ListView(
-        children: [
-          TaskList(), 
-        ]
-      ),
     );
   }
 }
